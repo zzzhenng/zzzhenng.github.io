@@ -1,0 +1,47 @@
+// page one
+
+
+	$het-pg1-top:4rem;
+.top--bar {
+
+	//come from compenent/_top-bar
+	@include top;
+	height:$het-pg1-top;
+}
+.open-menu {
+	cursor:pointer;
+	margin-left:1rem;
+	font-size:4rem;
+}
+
+
+
+
+
+// page2
+.vote-header {
+	@include top;
+	font-size:3.4rem;
+	padding: 1rem 0.5rem 1rem 1rem;
+
+}
+
+@mixin ima {
+	background-repeat: no-repeat;
+	width: 4rem;
+	height: 4rem;
+}
+.vote-img-left {
+	background-image:url('../img/vote.png');
+	@include ima;
+}
+.vote-img-right {
+	background-image:url('../img/vote-remove.png');
+	@include ima;
+}
+
+// page3
+.end-header {
+	@include top;
+	font-size:3.4rem;
+}

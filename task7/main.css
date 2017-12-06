@@ -1,0 +1,128 @@
+
+/*translate*/
+html{
+  font-size:62.5%;
+}
+body{
+  max-width:640px;
+  margin:auto;
+  background-color:rgb(240,240,240);
+  overflow-x:hidden;
+}
+.open-menu{
+  cursor:pointer;
+  color:white;
+  margin-left:1rem;
+  font-size:4rem;
+}
+#main{
+  
+  box-sizing:border-box;
+  transition:.5s;
+  letter-spacing:0.1rem;
+}
+.top-bar{
+    background-color:rgb(41,189,224);
+    height:4rem;
+    display:flex;
+    align-items:center;
+}
+
+.container-fluid{
+  padding:0 1.5rem;
+}
+.before-game{
+    color:rgb(154,154,154);
+    padding:2rem;
+    text-align:center;
+    border:0.1rem solid #aaa;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    background-color:white;
+    font-size:3.484rem;
+    position:relative;
+    
+}
+
+.arrow-right{
+    background-image: url("arrow_right.png");
+    background-repeat:no-repeat;
+    position:absolute;
+    right:0.6rem;
+    width:1.6rem;
+    height:3rem;
+    top:50%;
+    margin-top:-1.5rem;
+
+}
+
+/*content*/
+.content{
+  background-color:white;
+  border:0.1rem solid #aaa;
+
+  position:relative;
+}
+.content-title{
+  color:rgb(251,180,53);
+  text-align:center;
+  border-bottom:0.1rem solid rgb(253,208,129);
+  padding:1.5rem;
+  font-size:3.774rem;
+}
+.content-version{
+  margin:1rem 3rem;
+  background-color:rgb(105,209,233);
+  text-align:center;
+  padding:2rem;
+  color:white;
+  font-size:3.208rem;
+}
+.content-version-info{
+  text-align:center;
+  color:rgb(154,154,154);
+  font-size:2.454rem;
+}
+/*.center{
+  position:relative;
+}*/
+.triangle{
+  background-image:url(triangle.png);
+  background-repeat:no-repeat;
+  position:absolute;
+  width:2rem;
+  height:4rem;
+  top:50%;
+  margin-top:-1rem;
+  right:0.6rem;
+
+  cursor:pointer;
+}
+.fa-caret-right{
+  color:rgb(251,180,53);
+  float:right;
+  font-size:4rem;
+}
+.dot-icon{
+  text-align:center;
+  color:rgb(240,240,240);
+  font-size:2rem;
+}
+.fa-circle:first-child{
+  color:rgb(105,209,233);
+
+}
+
+@media screen and (max-width:480px){
+  html{
+    font-size:50%;
+  }
+}
+@media screen and (max-width:400px){
+  html{
+    font-size:39%;
+  }
+}
+
+
+

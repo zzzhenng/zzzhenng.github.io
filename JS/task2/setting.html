@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- icon -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	 <!-- bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- JQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+	<div class="setting--page">	
+
+	<div class="setting--header">
+		<div >
+			<i class="fa fa-chevron-left" onmouseup="goBack()"></i>
+		</div>
+		<div>
+			参数设置
+		</div>
+		<div>
+			<i class="fa fa-question-circle-o"></i>
+		</div>
+	</div><!--END header-->
+
+	<div class="setting--content">
+
+	  <div class="assignation">
+	  	<div class="assignation--info">
+	      <h4>玩家配比</h4>
+
+	  	</div>
+	  	<div class="assignation--items">
+	  		<ul id="assign" >
+	  			
+	  		</ul>
+	  		<button id="sort" type="button" class="btn--sort" onclick="f()">
+	  			<span>点击设置</span><span class="fa fa-pencil"></span>
+	  		</button>
+	  	</div>
+	  </div>
+
+	  <div class="content--word">
+	  	<div class="cizu">
+	  	  水民词组
+	  	</div>
+	  	<div class="cizu">
+	  	  幽灵词组
+	  	</div>
+	  </div>
+
+	  <div class="content--num">
+	  	<div class="player--num">
+	  		玩家人数<input id="playerNum" type="text" value="6" min="6" max="18" onkeyup="regexp()" oninput="changeRange()">人
+	  	</div>
+	  	<div class="num--thumb">
+	  		<i class="fa fa-minus" onclick="minusOne()"></i>
+	  		<input id="rangeN" type="range" name="range" min="6" max="18" value="6" onchange="plus()">
+	  		<i class="fa fa-plus" onclick="plusOne()"></i>
+	  	</div>
+	  </div>
+	</div><!-- END content-->
+
+	<div class="setting--footer" onmouseup="viewId()">
+		<button type="button">去发牌</button>
+	</div>
+
+	</div>
+
+	<script src="js/setting.js"></script>
+</body>
+</html>

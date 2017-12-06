@@ -1,0 +1,339 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  max-width: 640px;
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box; }
+
+.pr, .before-game, .content, .vote-info, .vote-mus, .tips {
+  position: relative; }
+
+.pa, .arrow-right, .triangle, .vote-mus::after, .vote-mus img {
+  position: absolute; }
+
+.pf, .vote-booter, .end-footer {
+  position: fixed; }
+
+.tc, .before-game, .content-title, .content-version-info, .dot-icon {
+  text-align: center; }
+
+.cp, .triangle, .vote-mus img {
+  cursor: pointer; }
+
+.content-version {
+  margin: 1rem 3rem;
+  background-color: #69d1e9;
+  text-align: center;
+  padding: 2rem;
+  color: white;
+  font-size: 3.208rem; }
+
+.content-items {
+  margin: 0 0 4% 7%;
+  float: left;
+  width: 24%; }
+
+.content-items:hover .hover-img {
+  opacity: 1; }
+
+.content-item {
+  border: 0.4rem solid white;
+  text-align: center; }
+
+.item {
+  padding: 25% 0;
+  background-color: #f5c97b;
+  font-size: 3rem; }
+
+.number {
+  background-color: #1a99b7;
+  font-size: 2.276rem;
+  color: white; }
+
+.hover-img {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1.4rem;
+  opacity: 0; }
+
+.hover-img img {
+  width: 100%; }
+
+.end-page {
+  max-width: 640px;
+  margin: auto; }
+
+.top--bar {
+  max-width: 640px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  background-color: #29bde0;
+  z-index: 1;
+  height: 4rem; }
+
+.open-menu {
+  cursor: pointer;
+  margin-left: 1rem;
+  font-size: 4rem; }
+
+.vote-header {
+  max-width: 640px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  background-color: #29bde0;
+  z-index: 1;
+  font-size: 3.4rem;
+  padding: 1rem 0.5rem 1rem 1rem; }
+
+.vote-img-left {
+  background-image: url("../img/vote.png");
+  background-repeat: no-repeat;
+  width: 4rem;
+  height: 4rem; }
+
+.vote-img-right {
+  background-image: url("../img/vote-remove.png");
+  background-repeat: no-repeat;
+  width: 4rem;
+  height: 4rem; }
+
+.end-header {
+  max-width: 640px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  background-color: #29bde0;
+  z-index: 1;
+  font-size: 3.4rem; }
+
+.main--content {
+  margin-top: 4rem;
+  background-color: #f0f0f0;
+  padding: 1rem 2rem; }
+  @media screen and (max-width: 400px) {
+    .main--content {
+      padding: 1rem; } }
+
+.before-game {
+  color: #aaa;
+  padding: 2rem;
+  border: 0.1rem solid #aaa;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: white;
+  font-size: 3.484rem; }
+
+.arrow-right {
+  background-image: url("../img/arrow_right.png");
+  background-repeat: no-repeat;
+  right: 0.6rem;
+  width: 1.6rem;
+  height: 3rem;
+  top: 50%;
+  margin-top: -1.5rem; }
+
+.content {
+  background-color: white;
+  border: 0.1rem solid #aaa; }
+
+.content-title {
+  color: #fbb435;
+  border-bottom: 0.1rem solid #fdd081;
+  padding: 1.5rem;
+  font-size: 3.774rem; }
+
+.content-version-info {
+  color: #9a9a9a;
+  font-size: 2.454rem; }
+
+.triangle {
+  background-image: url("../img/triangle.png");
+  background-repeat: no-repeat;
+  width: 2rem;
+  height: 4rem;
+  top: 50%;
+  margin-top: -1rem;
+  right: 0.6rem; }
+
+.dot-icon {
+  color: #f0f0f0;
+  font-size: 2rem; }
+
+.fa-circle:first-child {
+  color: #69d1e9; }
+
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 39%; } }
+.vote-page {
+  max-width: 640px;
+  margin: auto;
+  background-color: #29bde0;
+  overflow: hidden; }
+
+.vote-info {
+  margin-top: 6rem;
+  height: 11rem; }
+
+.vote-mus {
+  background-color: #b9e9f5;
+  font-size: 2.6rem;
+  padding: 1rem 2rem; }
+
+.vote-mus::after {
+  content: "";
+  top: 98%;
+  left: 10%;
+  border-width: 1.5rem;
+  margin-left: -1.5rem;
+  border-style: solid;
+  border-color: #b9e9f5 transparent transparent transparent; }
+
+.vote-mus span {
+  color: #464646; }
+
+.vote-mus img {
+  right: 1rem;
+  top: 50%;
+  margin-top: -1.6rem; }
+
+.tips {
+  font-size: 2.4rem;
+  color: white;
+  margin-left: 12%;
+  top: 2rem; }
+
+.vote-content {
+  padding-bottom: 30%;
+  overflow: hidden; }
+
+.end-main {
+  margin-top: 4.1rem;
+  background-color: #29bde0;
+  letter-spacing: 0.1rem; }
+  @media screen and (max-width: 400px) {
+    .end-main {
+      margin-top: 2.6rem; } }
+
+.end-main .img {
+  text-align: center;
+  padding: 2rem 2rem 0.5rem; }
+
+.end-main img {
+  max-width: 100%;
+  height: auto; }
+
+.end-main .info {
+  font-size: 3.3rem;
+  color: #ffc865;
+  padding: 1rem 3rem; }
+
+.end-main .result {
+  padding: 2rem 3rem 1.5rem 3rem;
+  color: white;
+  font-size: 2.6rem; }
+
+.end-main .character {
+  overflow: hidden; }
+
+.character .container {
+  max-width: 640px; }
+
+.character .col-xs-4 {
+  padding-left: 0;
+  padding-right: 0; }
+
+.end-record {
+  background-color: white; }
+
+.end-record .days {
+  padding: 1rem 3rem 2rem 3rem;
+  /*padding: 1rem 2rem 2rem 2rem;*/
+  border-bottom: 0.1rem solid #a6a6a6; }
+
+.days .day {
+  overflow: hidden;
+  margin-bottom: 1rem; }
+
+.day .order {
+  float: left;
+  font-size: 3rem; }
+
+.day .duration {
+  float: right;
+  font-size: 2rem;
+  color: #a6a6a6;
+  margin-top: 0.5rem; }
+
+.days .morning {
+  font-size: 2.6rem;
+  color: #a6a6a6; }
+
+.vote-booter {
+  max-width: 640px;
+  width: 100%;
+  height: 6rem;
+  bottom: 0;
+  margin: auto;
+  background-color: #29bde0;
+  padding-top: 2rem;
+  padding-bottom: 1rem; }
+
+.vote-booter .btn {
+  position: absolute;
+  padding: 0;
+  background-color: #fbb435;
+  width: 70%;
+  font-size: 4rem;
+  color: white;
+  left: 50%;
+  margin-left: -35%;
+  border-radius: 0; }
+
+.end-footer {
+  max-width: 640px;
+  width: 100%;
+  height: 6rem;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgba(153, 223, 240, 0.7); }
+
+.end-footer .btn {
+  font-size: 3rem;
+  color: white;
+  width: 40%;
+  padding: 1rem; }
+
+.end-footer .btn-left {
+  background-color: #f66f6f; }
+
+.end-footer .btn-right {
+  background-color: #fbb435; }
+
+.btn-left a:hover, a:visited, a:link, a:active {
+  color: white;
+  text-decoration: none; }

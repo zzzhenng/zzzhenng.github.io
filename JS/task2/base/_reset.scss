@@ -1,0 +1,20 @@
+html{
+	font-size: 62.5%;
+}
+body{
+	max-width:640px;
+	margin: auto;
+	padding: 0;
+	box-sizing:border-box;
+
+	ul {
+		margin:0;
+		padding:0
+	}
+
+}
+.pr{position:relative;}
+.pa{position:absolute;}
+.pf{position:fixed;}
+.tc{text-align:center;}
+.cp{cursor:pointer;}

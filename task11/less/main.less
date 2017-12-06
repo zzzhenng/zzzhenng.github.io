@@ -1,0 +1,93 @@
+@bar-color:#5fc0cd;
+@body-color:#eff0f4;
+@font-size:3.2rem;
+@font-color:white;
+html{
+	font-size:62.5%;
+}
+body{
+	
+	background-color: @body-color;
+	
+}
+
+.top{
+	font-size: @font-size;
+	color:@font-color;
+
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+
+	background-color: @bar-color;
+	padding: 0.5rem;
+	width:100%;
+	// max-width:640px;
+	margin:auto;
+}
+form{
+	input[type="text"]{
+	background-image: url('../img/phone.png');
+	}
+
+	input[type="password"]{
+	background-image: url(../img/lock.png);
+
+	}
+
+	input[type="text"],input[type="password"]{
+	padding: 2rem 8rem;
+	width:100%;
+	background-repeat: no-repeat;
+	background-size: 3.2rem;
+	background-position: 1rem;
+	box-sizing: border-box;
+	border:none;
+	outline: none;
+	margin-top:1rem;
+
+	}
+
+}
+
+.btn{
+	color:@font-color;
+	font-size:@font-size;
+	margin-top: 4rem;
+	background-color: @bar-color;
+	width:100%;
+
+	&:hover{
+		color:white;
+	}
+}
+
+.info {
+	font-size:2.4rem;
+	color:@bar-color;
+	float: right;
+	margin-top:	1rem;
+	margin-right: 1rem;
+}
+
+@media screen and (max-width:400px){
+	html{
+		font-size: 40%;
+	}
+	form{
+		input[type="text"],input[type="password"]{
+		padding:1.5rem 5rem;
+		}
+	}
+	
+}
+@media screen and (min-width:400px) and (max-width:480px){
+	html{
+		font-size: 50%;
+	}
+	form{
+		input[type="text"],input[type="password"]{
+		padding:1.5rem 5rem;
+		}
+	}
+}

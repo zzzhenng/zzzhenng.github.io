@@ -1,0 +1,131 @@
+html {
+  font-size: 62.5%;
+}
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 40%;
+  }
+}
+body {
+  max-width: 720px;
+  margin: 0 auto;
+}
+.topnav {
+  margin: auto;
+  max-width: 720px;
+  height: 5rem;
+  line-height: 5rem;
+  color: white;
+  text-align: center;
+  font-size: 3.6rem;
+  background-color: #5fc0cd;
+  z-index: 1;
+  box-sizing: border-box;
+}
+.topnav .fa-angle-left {
+  float: left;
+  line-height: 5rem;
+  padding-left: 1rem;
+}
+.header {
+  color: white;
+}
+.header .header-content {
+  background-image: url(../img/headBackgI5.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 15% 0;
+  overflow: hidden;
+}
+.header .header-content img {
+  margin-left: 1rem;
+  width: 20%;
+  border-radius: 50%;
+  float: left;
+}
+.header .header-content .header_name {
+  margin-top: 3%;
+  font-size: 2.8rem;
+  margin-left: 25%;
+}
+.header .header-content .header_loca {
+  font-size: 2.4rem;
+  margin-left: 25%;
+}
+.content {
+  font-size: 2.4rem;
+}
+.content .bb {
+  border-bottom: 0.1rem solid #aaa;
+}
+.content .user_title {
+  padding-left: 2rem;
+  padding: 1.5rem;
+  border-bottom: 0.1rem solid #aaa;
+}
+.content .user_title span {
+  border-left: 0.4rem solid #5fc0cd;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  font-weight: bold;
+}
+.content ul {
+  list-style: none;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.content ul li {
+  border-bottom: 0.1rem solid #aaa;
+}
+.content ul .user {
+  padding: 1.6rem;
+  display: flex;
+  align-items: center;
+}
+.content ul .user .user_info {
+  flex: 1;
+}
+.content ul .user span {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  color: #aaa;
+}
+.content ul .user .user_tag_one {
+  float: left;
+}
+.footer {
+  position: fixed;
+  bottom: 0.2rem;
+  right: 0;
+  left: 0;
+  max-width: 720px;
+  margin: auto;
+}
+.footer .button {
+  box-sizing: border-box;
+  width: 48%;
+  margin-left: 1%;
+  border: 0.1rem solid #5fc0cd;
+  padding: 1%;
+  height: 5.5rem;
+  outline: none;
+  font-size: 3.6rem;
+  cursor: pointer;
+}
+@media screen and (max-width: 480px) {
+  .footer .button {
+    height: 3.5rem;
+  }
+}
+.footer .button_left {
+  background-color: white;
+  color: #5fc0cd;
+}
+.footer .button_right {
+  background-color: #5fc0cd;
+  color: white;
+}
+.footer a {
+  text-decoration: none;
+  color: #5fc0cd;
+}

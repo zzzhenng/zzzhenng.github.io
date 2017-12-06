@@ -1,0 +1,242 @@
+html{
+		font-size: 62.5%;
+	}
+	body{
+		background-color: rgb(250,250,250);
+	}
+		.sy.container-fluid{
+			margin-left:6.5rem;
+			margin-right:6.5rem;
+		}
+		.sy .picture{
+			text-align: right;
+		}
+		.tel{
+			font-size:1.4rem; 
+			color:#29b078;
+			line-height: 2rem;
+		}
+		.share{
+			line-height: 2rem;
+		}
+		.share img{
+			margin-left: 1rem;
+		}
+		/**/
+		.navbar{
+			background-color: rgb(41,176,120);
+			border:none; /*默认为border:1px solid black*/
+			border-radius: 0;
+			margin-bottom: 0;
+		}
+		.navbar .container-fluid{
+			margin-right:5rem;
+		}
+		.navbar-brand{
+			/*margin-top: 0.2rem;*/
+		}
+
+		.icon-bar{
+			background-color: white;
+		}
+		
+		.navbar a,.icon-bar{
+			color:white;
+		}
+		.nav>li>a:focus{
+			background-color: rgb(42,176,120);/* 原来为#eee */
+		}
+		.nav li a{
+			font-size:1.602rem;
+		}
+		
+		.nav li{
+			border-bottom: 0.2rem solid rgb(41,176,120);
+			padding-top:1rem;
+			padding-bottom:1rem;
+		}
+		.nav>li>a{
+			/*margin-top:0.2rem;*/
+			/*border-bottom:0.2rem solid rgb(41,176,120);*/
+		}
+		.nav>li>a:focus{
+		/* 原来为#eee */
+		background-color: rgb(42,176,120);
+		}
+		.nav li:hover{
+			border-bottom-color: white;
+		}
+		.nav>li>a:hover{
+			/*border-bottom-color: white;*/
+			background-color: rgb(41,176,120); 
+		}
+		/**/
+		.back-img img{
+			max-width: 100%;
+			height: auto;
+		}
+		.o{
+			padding-left: 0;
+			padding-right: 0;
+		}
+
+		/**/
+		.content{
+			padding: 11rem 2rem 7rem;
+			/*background-color: rgb(250,250,250);*/
+		}
+		.content .row{
+			margin-right: 0;
+			margin-left: 0;
+		}
+		
+		.statistics{
+			margin-bottom: 1rem;
+		}
+		
+		.statistics span{
+			font-size: 1.8rem;
+			color:#26a26f;
+		}
+		.content h3{
+			font-size: 1.8rem;
+			color:#333;
+			font-weight: bold;
+			text-align: center;
+		}
+		.content p{
+			font-size: 1.8rem;
+			color:#999;
+			text-align: left;
+		}
+		.content .info{
+			margin-top: 6.2rem;
+		}
+		/*如何学习*/
+		.content>h3{
+			margin-top: 7rem;
+			margin-bottom: 5rem;
+			font-size:1.8rem;
+			font-weight: bold;
+		}
+		
+		/*!!!!!!!!!!!!!!!!!!!!!!2 method*/
+		 .step{
+		 	display: flex;
+		 	align-items: center;
+		 }
+		.two{
+			margin-top: 5rem;
+		}
+
+		/*photo*/
+		.avatar{
+			/*background-color: white;*/
+			/*background-clip: padding-box;*/
+			/*border:0.1rem solid grey;*/
+			/*padding: 1rem 1rem 1.5rem;*/
+			/*background:url(IMG/photo.png);
+			width:11.8rem;*/
+		}
+		.avatar img{
+			max-width: 100%;
+			margin: auto;
+		}
+		.inline-block{
+			padding: 1rem 1rem 1.5rem;
+			background-color: white;
+			border: 0.1rem solid #e8e8e8;
+		}
+		.dot{
+			margin-top: 2rem;
+
+		}
+		.dot .fa-circle{
+			color:white;
+			border:0.1rem solid #e8e8e8;
+			border-radius: 50%;
+		}
+		
+.row.ffff{
+	background-color: white;
+	margin-left:1.5rem;
+	margin-right:1.5rem;
+	padding-top:2rem;
+	padding-bottom:2rem;
+}
+
+		/*footer*/
+		.footer{
+			background: white;
+			overflow: hidden;
+			padding: 0rem 5rem 1rem;
+
+		}
+		
+		.footer h3{
+			font-size: 1.8rem;
+			color:#333;
+			font-weight: bold;
+			text-align: center;
+			margin-bottom: 2rem;
+
+		}
+		
+		.footer li{
+			float: left;
+			color:#999;
+			margin-right: 4.5rem;
+			/*margin-left: 1rem;*/
+		}
+		.footer a{
+			text-decoration: none;
+			color: #999;
+			font-size: 1.4rem;
+		}
+		.footer ul{
+			margin-left: 1rem;
+		}
+		.footer-bot{
+			padding: 2rem 6.5rem;
+			background: rgb(38,162,111);
+			color:white;
+		}
+		.footer-bot .row{
+			margin-left: 0;
+			margin-right: 0;
+		}
+		.footer-bot .about{
+			margin-top:4.7rem;
+			font-size:1.2rem;
+		}
+		.footer-bot .sub,.tree{
+			font-size:1.4rem;
+
+		}
+		.footer-bot .mid{
+			padding:1.5rem 1.5rem 1rem 0;
+		}
+		.mid span,.bot span{
+			font-size:1.2rem;
+			margin-right:1rem;
+		}
+		.bot{
+			padding:0 1.5rem 2rem 0;
+		}
+		.weixin{
+			font-size:1.4rem;
+			margin-bottom:0.3rem;
+		}
+		.copyr{
+			border-top:0.1rem solid #32c086;
+			font-size:1.2rem;
+			background-color: rgb(38,162,111);
+			color:white;
+			padding-top:0.5rem;
+			padding-bottom:0.5rem;
+		}
+		/*@media screen and (max-width:400px){
+			html{
+				font-size:40%;
+			}
+		}*/

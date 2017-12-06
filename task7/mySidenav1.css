@@ -1,0 +1,39 @@
+.sidenav{
+	margin:auto;
+	position: fixed;
+	top: 0;
+	width:250px;
+	height: 100%;
+	transform: translateX(-250px);
+	transition: 0.5s;
+	background-color:white;
+	/*color:rgb(105,209,233);*/
+}
+.sidenav-menu{
+	color: rgb(105,209,233);
+	border-bottom: 0.1rem solid #aaa;
+	padding: 1rem;
+	display: flex;
+	align-items: center;
+	
+}
+.sidenav a{
+	text-decoration: none;
+	/*TODO*/
+	transition: 0.3s;
+	color: rgb(105,209,233);
+}
+.volume, .setting{
+	border: 0.18rem solid rgb(105,209,233);
+	border-radius:50%;
+	font-size: 1.7rem;
+}
+.sidenav i{
+	margin-right: 1.5rem;
+	color: rgb(105,209,233);
+}
+.m-right-icon{
+	float: right;
+	position: absolute;
+	right: 2rem;
+}

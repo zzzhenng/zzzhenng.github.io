@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>护工个人5</title>
+		<style type="text/css">
+		body{
+			margin: 0;
+			max-width: 720px;
+			/*min-width: 320px;*/
+			margin: auto;
+		}
+		
+		.topnav{
+			background-color: rgb(95,192,205);
+			box-sizing: border-box;
+			/*width: 100%;*/
+			color: white;
+			padding: 0.8em;
+			text-align: center;
+			position: fixed;
+			top: 0;
+			z-index: 1;
+			/*stretching*/
+			max-width: 720px;
+			right: 0;
+			left: 0;
+			margin: auto;
+		}
+		.fa-angle-left{
+			float: left;
+			font-size: 1.5rem;
+		}
+		.header{
+			background-image: url(IMG/headBackgI5.png);
+			background-size: 100% auto;
+			position: relative;
+			top: 2.8rem;
+			height: 9rem;
+			font-size: 0.3em;
+			color: white;
+		}
+		.header img{
+			float: left;
+			width: 4rem;
+			border-radius: 50%;
+			position: absolute;
+			top: 2.5rem;
+			left: 1rem;
+		}
+		.header_name{
+			position: absolute;
+			top: 3.3rem;
+			left: 6rem;
+			
+		}
+		.header_loca{
+			position: absolute;
+			top: 4.5rem;
+			left: 6rem;
+		}
+		.fa-map-marker{
+			float: left;
+			padding-right: 0.3rem;
+			font-size: 0.6rem;
+		}
+		.content{
+			clear:both;
+			font-size: 0.7em;
+			margin-top: 3.1rem;
+		}
+		ul{
+			list-style: none;
+			padding-left: 1em;
+			padding-right: 1em;
+		}
+		ul li{
+			border-bottom:1px solid #aaa;
+		}
+		.user{
+			padding: 1.6em;
+		}
+		.user_title{
+			padding-left: 2em;
+			border-bottom: 1px solid #aaa;
+			padding: 1.5em;
+		}
+		.user_title span{
+			border-left: 0.2rem solid rgb(95,192,205);
+			padding-right: 1em;
+			padding-left: 1em;
+		}
+		.user{
+			padding: 1.5em;
+			display: flex;
+			align-items: center;
+		}
+		.user_info{
+			/*TODO*/
+			/*?????????????????????????????????????*/
+			flex: 1;
+		}
+		.user span{
+			margin-left: 1em;
+			margin-right: 1em;
+			color: #aaa;
+		}
+		.user_tag{
+			color: #aaa;
+		}
+
+		.user_tag_one{
+			float: left;
+		}
+		.footer{
+			position: fixed;
+			/*width: 100%;*/
+			bottom: 0.2rem;
+			/*stretching*/
+			max-width: 720px;
+			right: 0;
+			left: 0;
+			margin: auto;
+		}
+		.button{
+			box-sizing: border-box;
+			width: 48%;
+			margin-left: 1%;
+			border: 0.1em solid rgb(95,192,205);
+			padding:1%;
+			border-radius: 4%;
+			height: 2.5rem;
+			outline: none;
+			
+		}
+		
+		.button_left{
+			background-color: white;
+			color: rgb(95,192,205);
+		}
+		.button_right{
+			background-color: rgb(95,192,205);
+			color: white;
+		}
+
+		</style>
+	</head>
+	<body>
+	
+		
+	
+		<div class="flex_container">
+			<!-- top -->
+			<div class="topnav">
+				<i class="fa fa-angle-left" style="color: white;"></i>
+				个人主页
+			</div>
+			<!-- main -->
+			<div class="main">
+				<!-- head -->
+				<div class="header">
+					<img src="IMG/profileI5.png" alt="">
+					<div class="header_name">
+						徐士林 55岁
+					</div>
+					<div class="header_loca">
+						<i class="fa fa-map-marker" style="color: rgb(95,192,205)"></i>
+						京城 四方 报纸林
+					</div>
+				</div>
+				<!--  -->
+				<div class="content">
+					
+					<div class="user_title">
+						<span>专业技能</span>
+					</div>
+					
+					<ul>
+						<li class="user">
+							<div class="user_tag_one">
+								<i class="fa fa-star-o" style="color: red" ></i>住家<span>|</span>
+							</div>
+							<div class="user_info_one">
+								<i class="fa fa-star-o" style="color:red"></i>不含餐
+							</div>
+						</li>
+						<li class="user">
+							<div class="user_tag">
+								从业年限<span>|</span>
+							</div>
+							<div class="user_info">
+								0-3年
+							</div>
+						</li>
+						<li class="user">
+							<div class="user_tag">
+								工作时间<span>|</span>
+							</div>
+							<div class="user_info">
+								全天
+							</div>
+						</li>
+						<li class="user">
+							<div class="user_tag">
+								服务价格<span>|</span>
+							</div>
+							<div class="user_info" style="color: red">
+								25元/小时
+							</div>
+						</li>
+						<li class="user">
+							<div class="user_tag">
+								自我介绍<span>|</span>
+							</div>
+							<div class="user_info">
+								可以洗衣做饭照顾老人,可以洗衣做饭照顾老人,可以洗衣做饭照顾老人,可以洗衣做饭照顾老人,可以洗衣做饭照顾老人
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- footer -->
+			<div class="footer">
+				<button class="button button_left">留言</button>
+				<button class="button button_right">电话联系</button>
+			</div>
+		</div>
+		
+	</body>
+</html>

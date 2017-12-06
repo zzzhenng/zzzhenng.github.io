@@ -1,0 +1,411 @@
+html{
+	font-size:62.5%;
+}
+
+.toop{
+		padding-left:3.5rem;
+		/*col-*，因为中间多了一个margin-left=15px */
+		padding-right:3.5rem;
+
+	}
+	.coop-top{
+		color:#29b078;
+		line-height: 3rem;
+	}
+	.coop-top .pull-right{
+		text-align:right;
+	}
+
+
+	.coop-top img{
+		margin-left:1rem;
+	}
+	/*nav*/
+.coop-nav{
+		background: rgb(41,176,120);
+		border:none;
+		border-radius: 0;
+		margin-bottom: 0;
+		/*padding: 0 3.5rem;*/
+		/*a中有15pxpadding*/
+		padding:0 2rem 0 3.5rem;
+	}
+
+	
+	.coop-nav .navbar-toggle{
+		padding:16px 10px;
+	}
+	.coop-nav .navbar-brand{
+		max-height:64px;
+	}
+	
+	#myCoopNavbar a{
+		font-size:1.602rem;
+		/*border-bottom: 0.2rem solid rgb(41,176,120);*/
+		color:white;
+	}
+	#myCoopNavbar li{
+		border-bottom: 0.2rem solid rgb(41,176,120);
+
+		padding-top:1rem;
+		padding-bottom:1rem;
+	}
+	.nav>li>a:focus{
+		/* 原来为#eee */
+		background-color: rgb(42,176,120);
+	}
+	#myCoopNavbar a:hover {
+		/* 原来为#eee */
+		background-color: rgb(41,176,120);
+	}
+	#myCoopNavbar li:hover {
+		border-bottom-color: white;
+	}
+	.icon-bar{
+		background-color: white;
+		color:white;
+	}
+
+
+	/*main*/
+	.job-main{
+		background-color: rgb(250,250,250);
+		padding: 0 3.5rem;
+	}
+
+	/*home*/
+	
+	.home .title{
+		padding:2rem 0;
+		border-bottom:0.1rem solid #d0d6d9;
+	}
+	
+	.home .title a{
+		font-size:1.6rem;
+		text-decoration:none;
+		color:#333;
+	}	
+	.home .title span{
+		color: rgb(41,176,120);
+		font-size:1.6rem;
+	}
+	.home ul.direction {
+		list-style:none;
+		padding: 1.5rem 0;
+		margin-bottom:0;
+		border-bottom:0.1rem solid #edf1f2;
+	}
+	.home .direction li{
+		display: inline-block;
+		font-size:1.4rem;
+		margin-right: 2rem;
+		color:#333;
+	}
+	.direction li:nth-child(1){
+		color:#999;
+	}
+	.direction li:nth-child(2){
+		color:white;
+		background-color: rgb(41,176,120);
+	}
+	/*head*/
+	.home .head{
+		font-size: 1.6rem;
+		font-weight:bold;
+		border-bottom:0.1rem solid #d0d6d9;
+		padding: 2rem 0;
+	}
+/*item*/
+
+	.home .row.ss{
+		padding:2rem 0;
+	}
+	.home .item{
+		background-color: white;
+		border:0.1rem solid #edf1f2;
+		
+	}
+/**/
+
+	.home .one-row{
+		padding:1.5rem 1rem;
+		/*display: flex;
+		align-items:center;
+		flex-wrap: wrap;*/
+		/*overflow:hidden;*/
+		border-bottom:0.1rem solid #edf1f2;
+	}
+/*	.clearfix::after{
+		content:"";
+		clear:both;
+		display: table;
+	}
+	.image{
+		float: left;
+	}
+	*/
+
+	.home .item  h3{
+		font-size:1.6rem;
+		font-weight:bold;
+	}
+	.home .item  p{
+		font-size:1.4rem;
+	}
+
+
+
+
+
+/*col*/
+
+	.col{
+		max-width:640px;
+	}
+	.col .col-md-6{
+		padding-left:0;
+		padding-right:0;
+	}
+	.row .col{
+		margin-left:0;
+		margin-right:0;
+	}
+	.col .door-left{
+		border-right:0.1rem solid #edf1f2;
+		/*border-bottom:0.1rem solid #edf1f2;*/
+	}
+	.col .door{
+		padding: 1rem;
+		border-bottom:0.1rem solid #edf1f2;
+	}
+	.col .door span{
+		font-size:1.2rem;
+		color:#999;
+	}
+	.fa-star{
+		color:#ff5c00;
+	}
+	.col .door span:nth-child(1){
+		margin-right: 1rem;
+	}
+
+
+
+
+
+
+
+
+	/*row-left*/
+	/*.ll{
+		border-bottom: 0.1rem solid #edf1f2;
+	}
+	.row-left li{
+		display: inline-block;
+		padding: 1rem;
+	}
+	.row-left span{
+		font-size:1.2rem;
+		color:#999;
+	}
+	ul.row-left{
+		padding-left:0;
+		margin-bottom:0;
+	}
+	
+	.row-left li:nth-child(1){
+		width: 50%;
+		border-right: 0.1rem solid #edf1f2;
+	}
+	.row-left li span:nth-child(1){
+		margin-right:1rem;
+	}
+	.fa-star{
+		color:#ff5c00;
+	}*/
+	/*table*/
+	.home table{
+		width:100%;
+	}
+	.home tr,td{
+		border:0.1rem solid #edf1f2;
+	}
+	table span{
+		font-size:1.2rem;
+		color:black;
+
+	}
+	td {
+		padding:1rem;
+	}
+	table  span:nth-child(2){
+		/*float:right;*/
+	}
+	/*info*/
+	.info{
+		padding:1rem;
+		border:0.1rem solid #edf1f2;
+	}
+	.tips{
+		padding: 1rem;
+		font-size:1.2rem;
+		color:#999;
+	}
+
+/*反面*/
+
+	.ss .item{
+		position: relative;
+	}
+	.overlay{
+		position: absolute;
+		bottom:0;
+		left:0;
+		right:0;
+		background-color: rgb(61,61,61);
+		overflow:hidden;
+		width:100%;
+		height:0;
+		transition:.5s ease;
+	}
+	.ss .col-md-4:hover .overlay{
+		height:100%;
+		opacity:0.7;
+	}
+	.text{
+		color:white;
+		font-size:1.6rem;
+		position:absolute;
+		overflow: hidden;
+		/*top:30%;
+		left:30%;
+		transform:translate(-30%,-25%);*/
+	}
+	.text h3{
+		text-align: center;
+		padding-top:30%;
+	}
+	.text p{
+		padding: 1rem 3rem;
+	}
+
+
+
+
+
+	/*.home .row-left,.row-right{
+		display: inline-block;
+		padding:1rem;
+	}
+	.row-left{
+		max-width:50%;
+		border-right:0.1rem solid #edf1f2;
+	}
+	.row-left span{
+		font-size:1.2rem;
+		color:#999;
+
+	}
+	.row-right span{
+		font-size:1.2rem;
+		color:#999;
+	}*/
+
+	/*.home table{
+		border-collapse:collapse;
+		width:100%;
+	}
+	
+	.home td{
+		padding:1.5rem 1rem;
+	}
+	.home td span{
+		font-size:1.2rem;
+		color:#999;
+	}
+	.home td span:nth-child(1){
+		margin-right: 1.5rem;
+	}
+	.home td .fa-star{
+		color:#ff5c00;
+	}*/
+
+	/**/
+
+	.head2{
+		padding:0 0 2rem;
+		font-size: 1.6rem;
+		font-weight:bold;
+		border-bottom:0.1rem solid #d0d6d9;
+	}
+	.head3{
+		padding:0 0 2rem;
+		font-size: 1.6rem;
+		font-weight:bold;
+		border-bottom:0.1rem solid #d0d6d9;
+	}
+	.head4{
+		padding:0 0 2rem;
+		font-size: 1.6rem;
+		font-weight:bold;
+		border-bottom:0.1rem solid #d0d6d9;
+	}
+	/**/
+	/*footer*/
+	.space{
+		height:20rem;
+		background-color:rgb(250,250,250);
+	}
+	.coopfoot{
+		padding:2rem 3.5rem;
+		background: rgb(38,162,111);
+
+	}
+	.coopfoot .align-r{
+		text-align:right;
+		/*float:right;*/
+		padding-right:4rem;
+	}
+	.footer-bot{
+		/*padding: 2rem 5rem;*/
+		
+		color:white;
+	}
+	.footer-bot .about{
+		margin-top:4.7rem;
+		font-size:1.2rem;
+	}
+	.footer-bot .sub,.tree{
+		font-size:1.4rem;
+
+	}
+	.footer-bot .mid{
+		padding:1.5rem 1.5rem 1rem 0;
+	}
+	.mid span,.bot span{
+		font-size:1.2rem;
+		margin-right:1rem;
+	}
+	.bot{
+		padding:0 1.5rem 2rem 0;
+	}
+	.weixin{
+		font-size:1.4rem;
+		margin-bottom:0.3rem;
+	}
+	.copyr{
+		border-top:0.1rem solid #32c086;
+		font-size:1.2rem;
+		background-color: rgb(38,162,111);
+		color:white;
+		padding-top:0.5rem;
+		padding-bottom:0.5rem;
+	}
+@media screen and (max-width: 400px){
+	html{
+		font-size:40%;
+	}
+	.job-main{
+		padding:0rem;
+	}
+}

@@ -1,0 +1,32 @@
+
+@mixin media($width) {
+	@media screen and (max-width:$width){
+		@content;
+	}
+}
+@mixin top {
+	// position
+	max-width:640px;
+	position:fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	margin: auto;
+	// display
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color:white;
+	background-color: rgb(41,189,224);
+	z-index:1;
+}
+
+@mixin bot {
+
+	max-width:640px;
+	@extend .pf;
+	width:100%;
+	height:6rem;
+	bottom:0;
+
+}

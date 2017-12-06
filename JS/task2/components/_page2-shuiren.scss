@@ -1,0 +1,43 @@
+@charset 'utf-8';
+
+// shuiren
+
+.content-items{
+	margin:0 0 4% 7%;
+	float: left;
+	width:24%;
+
+}
+.content-items:hover .hover-img{
+	opacity: 1;
+}
+.content-item{
+	border:0.4rem solid white;
+	text-align: center;
+}
+.item{
+	padding: 25% 0;
+	background-color: rgb(245,201,123);
+	font-size: 3rem;
+
+}
+.number{
+	background-color: rgb(26,153,183);
+	font-size:2.276rem;
+	color:white;
+}
+.hover-img{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 1.4rem;
+	opacity: 0;
+}
+.hover-img img{
+	width:100%;
+}
+
+// page3
+.end-page{
+	max-width: 640px;
+	margin: auto;
+}

@@ -1,0 +1,208 @@
+// page1
+$themcl:#69d1e9;
+$bord:0.1rem solid #aaa;
+
+.main--content {
+    $bgcl:#f0f0f0;
+
+    margin-top:$het-pg1-top;
+    background-color:$bgcl;
+    padding:1rem 2rem;
+
+    @include media(400px) {
+        padding:1rem;
+    }
+}
+.before-game{
+    $fs3484:3.484rem;
+    $cl:#aaa;
+    
+    color:$cl;
+    padding:2rem;
+    @extend .tc;
+    border:$bord;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    background-color:white;
+    font-size:$fs3484;
+    @extend .pr;
+    
+}
+
+
+.arrow-right{
+    background-image: url("../img/arrow_right.png");
+    background-repeat:no-repeat;
+    @extend .pa;
+    right:0.6rem;
+    width:1.6rem;
+    height:3rem;
+    top:50%;
+    margin-top:-1.5rem;
+
+}
+.content{
+  background-color:white;
+  border:$bord;
+    @extend .pr;
+}
+.content-title{
+  color:rgb(251,180,53);
+  @extend .tc;
+  border-bottom:0.1rem solid rgb(253,208,129);
+  padding:1.5rem;
+  font-size:3.774rem;
+}
+.content-version-info{
+  @extend .tc;
+  color:rgb(154,154,154);
+  font-size:2.454rem;
+}
+.triangle{
+  background-image:url('../img/triangle.png');
+  background-repeat:no-repeat;
+  @extend .pa;
+  width:2rem;
+  height:4rem;
+  top:50%;
+  margin-top:-1rem;
+  right:0.6rem;
+  @extend .cp;
+}
+.dot-icon{
+  @extend .tc;
+  color:rgb(240,240,240);
+  font-size:2rem;
+}
+.fa-circle:first-child{
+  color:$cllan;
+
+}
+@include media(400px) {
+    html {
+        font-size:39%;
+    }
+}
+
+// page2
+$p2bg:rgb(41,189,224);
+.vote-page{
+    max-width: 640px;
+    margin: auto;
+    background-color: $p2bg;
+    overflow: hidden;
+}
+
+
+.vote-info{
+    @extend .pr;
+    margin-top: 6rem;
+    height: 11rem;
+}
+.vote-mus{
+    background-color: rgb(185,233,245);
+    font-size: 2.6rem;
+    padding: 1rem 2rem;
+    @extend .pr;
+}
+.vote-mus::after{
+    content: "";
+    @extend .pa;
+    top: 98%;
+    left: 10%;
+    border-width: 1.5rem;
+    margin-left: -1.5rem;
+    border-style: solid;
+    border-color: rgb(185,233,245) transparent transparent transparent;
+}
+.vote-mus span{
+    color:rgb(70,70,70);
+}
+.vote-mus img{
+    @extend .pa;
+    @extend .cp;
+    right: 1rem;
+    top: 50%;
+    margin-top: -1.6rem;
+}
+.tips{
+    font-size: 2.4rem;
+    color:white;
+    @extend .pr;
+    margin-left: 12%;
+    top: 2rem;
+}
+
+// content
+.vote-content {
+    padding-bottom: 30%;
+    overflow: hidden;
+}
+
+// page3
+.end-main{
+    margin-top: 4.1rem;
+    background-color: rgb(41,189,224);
+    letter-spacing:0.1rem;
+    @include media(400px) {
+        margin-top:2.6rem;
+    }
+}
+.end-main .img{
+    text-align:center;
+    padding:2rem 2rem 0.5rem;
+}
+.end-main img{
+    max-width: 100%;
+    height: auto;
+}
+.end-main .info{
+    font-size:3.3rem;
+    color:#ffc865;
+    padding: 1rem 3rem;
+}
+.end-main .result{
+    padding: 2rem 3rem 1.5rem 3rem;
+    color:white;
+    font-size:2.6rem;
+}
+
+.end-main .character{
+    overflow:hidden;
+}
+
+.character .container{
+    max-width:640px;
+}
+.character .col-xs-4{
+    padding-left:0;
+    padding-right:0;
+
+}
+
+.end-record{
+    background-color: white;
+}
+.end-record .days{
+    padding: 1rem 3rem 2rem 3rem;
+    /*padding: 1rem 2rem 2rem 2rem;*/
+    border-bottom:0.1rem solid #a6a6a6;
+}
+.days .day{
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+.day .order{
+    float: left;
+    font-size:3rem;
+}
+.day .duration{
+    float: right;
+    font-size: 2rem;
+    color:#a6a6a6;
+    margin-top:0.5rem;
+}
+.days .morning{
+    font-size: 2.6rem;
+    color:#a6a6a6;
+}

@@ -1,0 +1,208 @@
+html{
+	font-size: 62.5%;
+}
+	.toop{
+		padding-left:3.5rem;
+		/*col-*，因为中间多了一个margin-left=15px */
+		padding-right:3.5rem;
+
+	}
+	.coop-top{
+		color:#29b078;
+		line-height: 3rem;
+	}
+	.coop-top .pull-right{
+		text-align:right;
+	}
+
+
+	.coop-top img{
+		margin-left:1rem;
+	}
+	
+	/*nav*/
+	.coop-nav{
+		background: rgb(41,176,120);
+		border:none;
+		border-radius: 0;
+		margin-bottom: 0;
+		/*padding: 0 3.5rem;*/
+		/*a中有15pxpadding*/
+		padding:0 2rem 0 3.5rem;
+	}
+
+	
+	.coop-nav .navbar-toggle{
+		padding:16px 10px;
+	}
+	.coop-nav .navbar-brand{
+		max-height:64px;
+	}
+	
+	#myCoopNavbar a{
+		font-size:1.602rem;
+		/*border-bottom: 0.2rem solid rgb(41,176,120);*/
+		color:white;
+	}
+	#myCoopNavbar li{
+		border-bottom: 0.2rem solid rgb(41,176,120);
+
+		padding-top:1rem;
+		padding-bottom:1rem;
+	}
+	.nav>li>a:focus{
+		/* 原来为#eee */
+		background-color: rgb(42,176,120);
+	}
+	#myCoopNavbar a:hover {
+		/* 原来为#eee */
+		background-color: rgb(41,176,120);
+	}
+	#myCoopNavbar li:hover {
+		border-bottom-color: white;
+	}
+	.icon-bar{
+		background-color: white;
+		color:white;
+	}
+
+	/**/
+	.container-fluid.zhitui{
+		padding-left: 0;
+		padding-right: 0;
+		
+	}
+	.zhitui img{
+		max-width: 100%;
+		height: auto;
+	}
+
+	/**/
+	.bread{
+		background-color: rgb(250,250,250);
+		padding: 1.5rem 3.5rem 1.5rem 3.5rem;
+	}
+	.bread .home{
+		font-size:1.6rem;
+		font-weight:bold;
+		color:black;
+		text-decoration:none;
+	}
+	.bread .co{
+		color:#29b078;
+		font-size:1.6rem;
+		font-weight:bold;
+	}
+
+	/**/
+	.content-3-9{
+		background-color:rgb(250,250,250);
+		padding-left:3.5rem;
+
+		padding-right:3.5rem;
+	}
+	.left .panel-heading{
+		font-size:1.6rem;
+		font-weight:bold;
+		background-color:white;
+	}
+	.left .panel-body{
+		padding-left:38%;
+	}
+	.left .panel-body a{
+		text-decoration:none;
+	}
+	
+	.left .panel-body a:hover span{
+		color:#ff650e;
+	}
+	.left .panel-body a:active span{
+		color:#ff650e;
+	}
+	.left .panel-body span{
+		font-size:1.4rem;
+		color:#29b078;
+	}
+	.left .panel-body .fa{
+		color:#ff650e;
+	}
+	.right .panel-heading{
+		background-color:white;
+		padding:2rem 4rem;
+
+		display:flex;
+		justify-content:space-around;
+		align-items:center;
+		line-height:2.5rem;
+	}
+
+	.right .panel-heading .info{
+		margin-left:2.5rem;
+		font-size:1.4rem;
+		color:#999;
+	}
+	.right .panel-body{
+		padding:2rem 4rem;
+		color:#999;
+		font-size:1.4rem;
+		line-height:2.5rem;
+	}
+	.detail{
+		text-indent:2rem;
+	}
+
+	/*footer*/
+	.space{
+		height:20rem;
+		background-color:rgb(250,250,250);
+	}
+	.coopfoot{
+		padding:2rem 3.5rem;
+		background: rgb(38,162,111);
+
+	}
+	.coopfoot .align-r{
+		text-align:right;
+		/*float:right;*/
+		padding-right:4rem;
+	}
+	.footer-bot{
+		/*padding: 2rem 5rem;*/
+		
+		color:white;
+	}
+	.footer-bot .about{
+		margin-top:4.7rem;
+		font-size:1.2rem;
+	}
+	.footer-bot .sub,.tree{
+		font-size:1.4rem;
+
+	}
+	.footer-bot .mid{
+		padding:1.5rem 1.5rem 1rem 0;
+	}
+	.mid span,.bot span{
+		font-size:1.2rem;
+		margin-right:1rem;
+	}
+	.bot{
+		padding:0 1.5rem 2rem 0;
+	}
+	.weixin{
+		font-size:1.4rem;
+		margin-bottom:0.3rem;
+	}
+	.copyr{
+		border-top:0.1rem solid #32c086;
+		font-size:1.2rem;
+		background-color: rgb(38,162,111);
+		color:white;
+		padding-top:0.5rem;
+		padding-bottom:0.5rem;
+	}
+	@media screen and (max-width:400px){
+		html{
+			font-size:40%;
+		}
+	}

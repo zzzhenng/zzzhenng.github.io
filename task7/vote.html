@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+		<title></title>
+		<!-- <meta charset="utf-8"> -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<!-- bootstrap CDN -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<!-- JQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="votePage.css">
+	</head>
+	
+</head>
+<body>
+	<div class="vote-page">
+		<div class="vote-header">
+			<div class="vote-img-left">
+				
+			</div>
+			<div>投票</div>
+			<div class="vote-img-right">
+				
+			</div>
+		</div><!--END header -->
+		<div class="vote-info">
+			<div class="vote-mus">
+				<span>发言讨论结束，大家请投票</span>
+				<img src="audio.png" onclick="play()">
+				<audio controls hidden id="music">
+					<source src="horse.ogg" type="audio/ogg" media="">
+				</audio>
+			</div>
+			<div class="tips">
+				点击得票数最多人的头像
+			</div>
+		</div><!--END info -->
+		<div class="vote-content">
+			
+			<div class="content-items">
+				<div class="content-item">
+					<div class="item">
+						<span>水民</span>
+					</div>
+					<div class="number">
+						<span>1号</span>
+					</div>
+					
+				</div>
+				<div class="hover-img">
+					<div>
+						<img src="hover-img-one.png">
+					</div>
+					<div>
+						<img src="hover-img-two.png">
+					</div>
+					<div>
+						<img src="hover-img-three.png">
+					</div>
+					<div>
+						<img src="hover-img-four.png">
+					</div>
+				</div>
+			</div><!--END one model-->
+			<div class="content-items">
+				<div class="content-item">
+					<div class="item">
+						<span>水民</span>
+					</div>
+					<div class="number">
+						<span>2号</span>
+					</div>
+					
+				</div>
+				<div class="hover-img">
+					<div>
+						<img src="hover-img-one.png">
+					</div>
+					<div>
+						<img src="hover-img-two.png">
+					</div>
+					<div>
+						<img src="hover-img-three.png">
+					</div>
+					<div>
+						<img src="hover-img-four.png">
+					</div>
+				</div>
+			</div><!--END one model-->
+			<div class="content-items">
+				<div class="content-item">
+					<div class="item">
+						<span>警察</span>
+					</div>
+					<div class="number">
+						<span>3号</span>
+					</div>
+					
+				</div>
+				<div class="hover-img">
+					<div>
+						<img src="hover-img-one.png">
+					</div>
+					<div>
+						<img src="hover-img-two.png">
+					</div>
+					<div>
+						<img src="hover-img-three.png">
+					</div>
+					<div>
+						<img src="hover-img-four.png">
+					</div>
+				</div>
+			</div><!--END one row-->
+			<div class="content-items">
+				<div class="content-item">
+					<div class="item">
+						<span>法官</span>
+					</div>
+					<div class="number">
+						<span>4号</span>
+					</div>
+					
+				</div>
+				<div class="hover-img">
+					<div>
+						<img src="hover-img-one.png">
+					</div>
+					<div>
+						<img src="hover-img-two.png">
+					</div>
+					<div>
+						<img src="hover-img-three.png">
+					</div>
+					<div>
+						<img src="hover-img-four.png">
+					</div>
+				</div>
+			</div><!--END one model-->
+			<div class="content-items">
+				<div class="content-item">
+					<div class="item">
+						<span>狙击手</span>
+					</div>
+					<div class="number">
+						<span>5号</span>
+					</div>
+					
+				</div>
+				<div class="hover-img">
+					<div>
+						<img src="hover-img-one.png">
+					</div>
+					<div>
+						<img src="hover-img-two.png">
+					</div>
+					<div>
+						<img src="hover-img-three.png">
+					</div>
+					<div>
+						<img src="hover-img-four.png">
+					</div>
+				</div>
+			</div><!--END one model-->
+			<div class="content-items">
+				<div class="content-item">
+					<div class="item">
+						<span>医生</span>
+					</div>
+					<div class="number">
+						<span>6号</span>
+					</div>
+					
+				</div>
+				<div class="hover-img">
+					<div>
+						<img src="hover-img-one.png">
+					</div>
+					<div>
+						<img src="hover-img-two.png">
+					</div>
+					<div>
+						<img src="hover-img-three.png">
+					</div>
+					<div>
+						<img src="hover-img-four.png">
+					</div>
+				</div>
+			</div><!--END two row-->
+			<div class="content-items">
+				<div class="content-item">
+					<div class="item">
+						<span>杀手</span>
+					</div>
+					<div class="number">
+						<span>7号</span>
+					</div>
+					
+				</div>
+				<div class="hover-img">
+					<div>
+						<img src="hover-img-one.png">
+					</div>
+					<div>
+						<img src="hover-img-two.png">
+					</div>
+					<div>
+						<img src="hover-img-three.png">
+					</div>
+					<div>
+						<img src="hover-img-four.png">
+					</div>
+				</div>
+			</div><!--END one model-->
+			<div class="content-items">
+				<div class="content-item">
+					<div class="item">
+						<span>水民</span>
+					</div>
+					<div class="number">
+						<span>8号</span>
+					</div>
+					
+				</div>
+				<div class="hover-img">
+					<div>
+						<img src="hover-img-one.png">
+					</div>
+					<div>
+						<img src="hover-img-two.png">
+					</div>
+					<div>
+						<img src="hover-img-three.png">
+					</div>
+					<div>
+						<img src="hover-img-four.png">
+					</div>
+				</div>
+			</div><!--END one model-->
+			<div class="content-items">
+				<div class="content-item">
+					<div class="item">
+						<span>水民</span>
+					</div>
+					<div class="number">
+						<span>9号</span>
+					</div>
+					
+				</div>
+				<div class="hover-img">
+					<div>
+						<img src="hover-img-one.png">
+					</div>
+					<div>
+						<img src="hover-img-two.png">
+					</div>
+					<div>
+						<img src="hover-img-three.png">
+					</div>
+					<div>
+						<img src="hover-img-four.png">
+					</div>
+				</div>
+			</div><!--END three row-->
+			<div class="content-items">
+				<div class="content-item">
+					<div class="item">
+						<span>水民</span>
+					</div>
+					<div class="number">
+						<span>10号</span>
+					</div>
+					
+				</div>
+				<div class="hover-img">
+					<div>
+						<img src="hover-img-one.png">
+					</div>
+					<div>
+						<img src="hover-img-two.png">
+					</div>
+					<div>
+						<img src="hover-img-three.png">
+					</div>
+					<div>
+						<img src="hover-img-four.png">
+					</div>
+				</div>
+			</div><!--END one model-->
+			<div class="content-items">
+				<div class="content-item">
+					<div class="item">
+						<span>水民</span>
+					</div>
+					<div class="number">
+						<span>11号</span>
+					</div>
+					
+				</div>
+				<div class="hover-img">
+					<div>
+						<img src="hover-img-one.png">
+					</div>
+					<div>
+						<img src="hover-img-two.png">
+					</div>
+					<div>
+						<img src="hover-img-three.png">
+					</div>
+					<div>
+						<img src="hover-img-four.png">
+					</div>
+				</div>
+			</div><!--END one model-->
+			<div class="content-items">
+				<div class="content-item">
+					<div class="item">
+						<span>水民</span>
+					</div>
+					<div class="number">
+						<span>12号</span>
+					</div>
+					
+				</div>
+				<div class="hover-img">
+					<div>
+						<img src="hover-img-one.png">
+					</div>
+					<div>
+						<img src="hover-img-two.png">
+					</div>
+					<div>
+						<img src="hover-img-three.png">
+					</div>
+					<div>
+						<img src="hover-img-four.png">
+					</div>
+				</div>
+			</div><!--END four row-->
+
+		</div><!--END vote-content-->
+		<div class="vote-booter">
+		<a href="end.html">
+			<div class="btn" >投死</div>
+		</a>
+		</div>
+	<!-- JS -->
+	<script type="text/javascript">
+		var ms = document.getElementById("music")
+		function play(){
+			if(ms.paused){
+				ms.play();
+			} else{
+				ms.pause();
+			}
+		}
+	</script>
+	</body>
+</html>

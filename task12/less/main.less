@@ -1,0 +1,174 @@
+@top-color:rgb(95,192,205);
+
+html {
+	font-size: 62.5%;
+}
+@media screen and (max-width:480px){
+	html {
+		font-size: 40%;
+	}
+}
+body {
+	max-width: 720px;
+	margin:0 auto;
+}
+
+// top
+.topnav {
+	@fs36:3.6rem;
+	
+	// position
+	// position: fixed;
+	// top:0;
+	// right:0;
+	// left:0;
+	margin:auto;
+	max-width: 720px;
+
+	// box
+	height: 5rem;
+	line-height: 5rem;
+	color:white;
+	text-align: center;
+	font-size: @fs36;
+	background-color: @top-color;
+	z-index: 1;
+	box-sizing:border-box;
+
+	.fa-angle-left {
+		float: left;
+		line-height: 5rem;
+		padding-left: 1rem;
+
+	}
+
+}
+// header
+.header {
+	@fs28:2.8rem;
+	@fs24:2.4rem;
+	@color-w:white;
+
+	color:@color-w;
+	.header-content {
+		background-image: url(../img/headBackgI5.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		padding: 15% 0;
+		overflow: hidden;
+
+
+		img {
+		margin-left:1rem;
+		width:20%;
+		border-radius: 50%;
+		float: left;
+
+	}
+
+		.header_name {
+			margin-top: 3%;
+			font-size: @fs28;
+			margin-left: 25%;
+		}
+		.header_loca {
+			font-size:@fs24;
+			margin-left: 25%;
+		}
+	}
+	
+}
+// content
+.content {
+	@fc:#999;
+	@fs24:2.4rem;
+	.bb{border-bottom: 0.1rem solid #aaa;}
+
+	font-size: @fs24;
+	.user_title {
+		padding-left: 2rem;
+		padding:1.5rem;
+		.bb;
+		
+		span {
+			border-left: 0.4rem solid @top-color;
+			padding-right: 1rem;
+			padding-left: 1rem;
+			font-weight:bold;
+		}
+	}
+	ul {
+		list-style: none;
+		padding-left: 1rem;
+		padding-right: 1rem;
+		
+		li {
+			.bb;
+		}
+		.user {
+			padding: 1.6rem;
+			display: flex;
+			align-items:center;
+
+			.user_info {
+				flex:1;
+			}
+			span {
+				margin-left: 1rem;
+				margin-right: 1rem;
+				color:#aaa;
+			}
+
+			.user_tag_one {
+				float: left;
+			}
+		}
+
+	}
+}
+// footer
+.footer {
+	@fs36:3.6rem;
+
+
+	position:fixed;
+	bottom: 0.2rem;
+	right:0;
+	left:0;
+	max-width: 720px;
+	margin:auto;
+	
+
+	.button {
+		box-sizing: border-box;
+		width:48%;
+		margin-left: 1%;
+		border:0.1rem solid @top-color;
+		padding:1%;
+		height:5.5rem;
+		outline:none;
+		font-size:@fs36;
+		cursor:pointer;
+
+	}
+	@media screen and (max-width:480px) {
+		.button {
+			height:3.5rem;
+		}
+	}
+		.button_left {
+			background-color: white;
+			color:@top-color;
+
+		}
+		.button_right {
+			background-color: @top-color;
+			color:white;
+		}
+		a {
+			text-decoration: none;
+			color:@top-color;
+		}
+	
+
+}

@@ -1,0 +1,179 @@
+html{
+	font-size: 62.5%;
+
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+	.end-page{
+		max-width: 640px;
+		margin: auto;
+	}
+	/*HEADER*/
+	.end-header{
+		max-width: 640px;
+		position: fixed;
+		left: 0;
+		right: 0;
+		top: 0;
+		margin: auto;
+		background-color: rgb(41,189,224);
+		color:white;
+		font-size:3.4rem;
+
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0.5rem;
+		/*TODO*/
+		border-bottom: 0.08rem solid #efe7e7;
+		z-index: 1;
+
+
+
+
+		height:4rem;
+	}
+	/*MAIN*/
+	.end-main{
+		margin-top: 3rem;
+		background-color: rgb(41,189,224);
+		letter-spacing:0.1rem;
+	}
+	.end-main .img{
+		text-align:center;
+		/*padding: 2rem;*/
+
+
+		padding:2rem 2rem 0.5rem;
+
+
+
+
+	}
+	.end-main img{
+		max-width: 100%;
+		height: auto;
+	}
+	.end-main .info{
+		font-size:3.3rem;
+		color:#ffc865;
+		padding: 1rem 3rem;
+		/*padding:1rem 2rem;*/
+	}
+	.end-main .result{
+		padding: 2rem 3rem 1.5rem 3rem;
+		/*padding: 2rem 2rem 1.5rem 2rem;*/
+		color:white;
+		font-size:2.6rem;
+	}
+
+		/*.container{
+			max-width: 640px;
+			padding-left: 0;
+			padding-right: 0;
+		}
+		.career{
+
+		}*/
+	.end-main .character{
+		overflow:hidden;
+	}
+
+
+
+
+
+
+
+	.career{
+		/*margin-right: 1rem;
+		float: left;*/
+	}
+	.character .container{
+		max-width:640px;
+	}
+	.character .col-xs-4{
+		padding-left:0;
+		padding-right:0;
+
+	}
+
+
+
+
+
+
+
+	/*RECORD*/
+	.end-record{
+		background-color: white;
+	}
+	.end-record .days{
+		padding: 1rem 3rem 2rem 3rem;
+		/*padding: 1rem 2rem 2rem 2rem;*/
+		border-bottom:0.1rem solid #a6a6a6;
+	}
+	.days .day{
+		overflow: hidden;
+		margin-bottom: 1rem;
+	}
+	.day .order{
+		float: left;
+		font-size:3rem;
+	}
+	.day .duration{
+		float: right;
+		font-size: 2rem;
+		color:#a6a6a6;
+		margin-top:0.5rem;
+	}
+	.days .morning{
+		font-size: 2.6rem;
+		color:#a6a6a6;
+	}
+	/*FOOTER*/
+	.end-footer{
+		background: rgba(153,223,240,0.7);
+		/*TODO*/
+		height:8rem;
+		/*TODOTODO????????????????????差了10px宽度*/
+		max-width: 640px;
+		position: fixed;
+		bottom: 0;
+		width:100%;
+		/*margin: auto;*/
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+
+	}
+	.end-footer .btn{
+		font-size: 3rem;
+		color:white;
+		width: 40%;
+		padding:1rem;
+	}
+	.end-footer .btn-left{
+		background-color: rgb(246,111,111);
+	}
+	.end-footer .btn-right{
+		background-color: rgb(251,180,53);
+	}
+	.btn-left a:hover,a:visited,a:link,a:active{
+		color:white;
+		text-decoration:none;
+	}
+	@media screen and (max-width:480px){
+		html{
+			font-size: 50%;
+		}
+	}
+	@media screen and (max-width:400px) {
+		html{
+			font-size: 36%;
+		}
+	}
+
+	

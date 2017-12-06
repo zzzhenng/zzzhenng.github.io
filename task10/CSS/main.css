@@ -1,0 +1,390 @@
+html{
+	font-size:62.5%;
+}
+
+/*.page-body{
+	padding-left: 3.5rem;
+	padding-right:3.5rem;
+}*/
+
+	/*header*/
+
+	/*top*/
+	.header{
+		
+		width:100%;
+		
+	}
+	.header .top{
+		color:white;
+		height:5rem;
+		line-height: 5rem;
+		background-color: rgb(29,122,217);
+	}
+
+	.header .tel{
+		font-size:1.4rem;
+		padding-left:5rem; 			/*左对齐*/
+		vertical-align:middle;
+	}
+	.header .sign{
+		font-size:1.6rem;
+		margin-right: 5rem;			/*右对齐*/
+		vertical-align: middle;
+		border-left: 0.1rem solid white;
+	}
+	.header .sign span:nth-child(1){
+		padding-left: 1rem;
+		padding-right: 1rem;
+
+	}
+	.header .top .sp{
+		background-clip: padding-box;
+		background: white;
+		color:black;
+		padding:2rem;
+	}
+	/*bar*/
+	.header .bar{
+		background: rgb(249,249,249);
+		background-clip: border-box;
+		display: flex;
+		justify-content:flex-end;
+		/*flex-wrap: wrap;*/
+		padding: 2rem 0;
+	}
+	.bar .btn{
+		margin-left: 4rem;
+		padding: 1.5rem;
+		font-size: 1.602rem;
+		border-color:#e6e6e6;
+		box-shadow:2px 2px 5px #e6e6e6;
+	}
+	.bar .btn:nth-child(4){
+		margin-right: 5rem;			/*右对齐*/
+	}
+
+
+/*content*/
+
+	.content{
+		padding-left: 5rem;
+		padding-right: 5rem;
+		width:100%;
+		padding-bottom: 2rem;
+	}
+	/*step*/
+	.content .step{
+		padding: 3rem 0;
+		overflow:hidden;
+		/*TODO
+		若没有，li之间有间隔？？？？？？？*/
+		font-size: 0;	
+	}
+	.step ul{
+		list-style:none;
+		margin-top: 1rem;
+		float: right;
+		width:100%;
+		max-width:640px;
+		padding-left: 0;
+		/*border-top:0.3rem solid #ccc;*/
+	}
+	.step li{
+		display: inline-block;
+		text-align: center;
+		position: relative;
+		width:25%;
+		border-top:0.3rem solid #ccc;
+	}
+	.step h4{
+		font-size:1.8rem;
+		color:#ccc;
+	}
+	.step p{
+		color:white;
+		font-size:1.4rem;
+		/*border:0.1rem solid #ccc;*/
+		border-radius:50%;
+		background-color: #ccc;
+		width:2rem;
+		height:2rem;
+		position:relative;
+		left: 40%;
+		top: -1rem;
+
+	}
+	.step ul .one {
+		color:#ff7f00;
+		border-top:0.3rem solid #ff7f00;
+		
+	}
+	.step ul .one p{
+		background-color:#ff7f00;
+	}
+	.step ul .one h4{
+		color:#ff7f00;
+	}
+
+	/*custom*/
+	.custom p{
+		font-size: 2.2rem;
+		color:#333;
+		padding-left: 1rem;
+		border-left: 0.3rem solid rgb(29,122,217);
+	}
+	/*teps*/
+	.types{
+		background: #f3f3f3;
+		padding: 1rem;
+	}
+	.types span{
+		font-size: 1.8rem;
+		color:#1d7ad9;
+		padding-left: 1rem;
+	}
+	/*type*/
+	.type{
+		background: #fbfcff;
+	}
+	.type .type-row{
+		padding: 2rem;
+	}
+	.type .info{
+		color:#666;
+		font-size: 1.8rem;
+		font-weight:normal;
+	}
+
+
+
+
+/*.type1{
+	overflow: hidden;
+}*/
+	.control{
+		position: relative;
+		padding-left: 3rem;
+	}
+	.control input{
+		position: absolute;
+		z-index: -1;
+		opacity:0;
+	}
+	.control_indicator{
+		position: absolute;
+		left: 0;
+		top:0;
+		height: 2rem;
+		width:2rem;
+		background: #e6e6e6;
+		/*border-radius: 50%;*/
+	}
+	.control--radio .control_indicator{
+		border-radius: 50%;
+	}
+	.control input:checked ~ .control_indicator{
+		background: #2aa1c0;
+	}
+	.control_indicator:after{
+		content: "";
+		position: absolute;
+		display: none;
+	}
+	 .control input:checked ~ .control_indicator:after{
+		display: block;
+	}
+	
+
+	.control--radio .control_indicator:after{
+		left:0.7rem;
+		top:0.7rem;
+		width:0.6rem;
+		height:0.6rem;
+		border-radius: 50%;
+		background: #fff;
+		
+	}
+
+	/*box*/
+	.box{
+		border: 0.1rem solid #e8e8e8;
+		padding: 0.5rem;
+		width:11rem;
+		position: relative;
+		cursor:pointer;
+		background: white;
+
+
+
+float: right;
+
+
+	}
+	.box span{
+		font-size:1.4rem;
+		color:#999;
+		padding-left: 1rem;
+	}
+	.box i{
+		width:1.5rem;
+		height:1.5rem;
+		background: #1d7ad9;
+		position: absolute;
+		line-height: 1.5rem;
+		text-align: center;
+		right: 0.5rem; 
+	}
+	.box .fa-caret-down{
+		color:white;
+		position: absolute;
+
+	}
+	.dropdown-content{
+		display: none;
+		position: absolute;
+		background: #fbfcff;
+		min-width: 10rem;
+		top: 100%;
+		z-index: 1;
+	}
+	.dropdown-content p{
+		color:black;
+		padding: 0.5rem;
+		display: block;
+	}
+	.box:hover .dropdown-content{
+		display: block;
+	}
+	/*size*/
+	input[type="text"]{
+		width:33%;
+		padding-left: 1rem;
+	}
+	.size .row{
+		position:relative;
+	}
+	.col-md-offset-2.col-md-2.cen{
+		position: absolute;
+		top:50%;
+		right:1.5rem;
+		margin-top: -1.2rem;
+	}
+	/*material*/
+	.material .type-row{
+		padding: 3rem 2rem;
+	}
+	/*bt*/
+	.bt{
+		padding: 13rem;
+		border-bottom: 0.1rem solid #e8e8e8;
+
+	}
+	.btn{
+		padding: 0.8rem 5rem;
+		font-size:2.4rem;
+	}
+
+/*footer*/
+	.footer{
+		background: rgb(249,249,249);
+		background-clip: padding-box;
+		padding:2rem 3.5rem;
+		display: flex;
+		justify-content:space-between;
+		flex-wrap:wrap;
+	}
+	.footer-left p{
+		font-size:1.8rem;
+		color:#999;
+	}
+	.footer-center span{
+		font-size: 1.4rem;
+		color:#999;
+		margin-right: 2rem;
+	}
+	.footer-center .one-row{
+		margin-bottom: 1.5rem;
+	}
+	.footer-right ul{
+		text-decoration: none;
+		list-style: none;
+		float: left;
+		padding-top: 1rem;
+		padding-left:0;
+	}
+	.footer-right li{
+		font-size:1.4rem;
+		color:#999;
+	}
+	.footer-copy{
+		padding:0.5rem 0;
+		background: #1d7ad9;
+		background-clip: padding-box;
+		font-size: 1.4rem;
+		color:white;
+	}
+	
+	/*input[type="radio"]{
+		appearance:none;
+		width:1.5rem;
+		height:1.5rem;
+		border:0.2rem solid #d6d6d6;
+		border-radius: 50%;
+		outline: none;
+	}
+	input[type="radio"]:before{
+		content:"";
+		width:1.5rem;
+		height:1.5rem;
+		border-radius:50%;
+		outline: none;
+		border:0.2rem solid red;
+	}
+	input[type="radio"]:checked:before{
+		background: blue;
+	}*/
+/*	.type input[type="radio"]:checked{
+		width:1.5rem;
+		height:1.5rem;
+		border:1rem solid #1d7ad9;
+		border-radius: 50%;
+		outline: none;
+	}*/
+	@media screen and (max-width:580px){
+		html{
+			font-size:40%;
+		}
+		/*top*/
+		.header .top{
+			height:3rem;
+			line-height: 3rem;
+		}
+		.header .top .sp{
+			padding: 0.9rem;
+		}
+		.header .tel{
+			padding-left: 2rem;
+		}
+		.header .sign{
+			margin-right: 2rem;
+		}
+		/*bar*/
+		.bar .btn{
+			margin-left:0.5rem;
+			padding:0.6rem 1.2rem;
+		}
+		.bar .btn:nth-child(4){
+			margin-right: 1rem;			/*右对齐*/
+		}
+		.content{
+			padding-left: 3rem;
+			padding-right: 3rem;
+		}
+		.bt{
+			padding: 3rem 0;
+		}
+		.footer{
+			padding:2rem 1.5rem;
+		}
+}

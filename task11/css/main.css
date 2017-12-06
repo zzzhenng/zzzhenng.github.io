@@ -1,0 +1,70 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #eff0f4;
+}
+.top {
+  font-size: 3.2rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5fc0cd;
+  padding: 0.5rem;
+  width: 100%;
+  margin: auto;
+}
+form input[type="text"] {
+  background-image: url('../img/phone.png');
+}
+form input[type="password"] {
+  background-image: url(../img/lock.png);
+}
+form input[type="text"],
+form input[type="password"] {
+  padding: 2rem 8rem;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 3.2rem;
+  background-position: 1rem;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  margin-top: 1rem;
+}
+.btn {
+  color: white;
+  font-size: 3.2rem;
+  margin-top: 4rem;
+  background-color: #5fc0cd;
+  width: 100%;
+}
+.btn:hover {
+  color: white;
+}
+.info {
+  font-size: 2.4rem;
+  color: #5fc0cd;
+  float: right;
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 40%;
+  }
+  form input[type="text"],
+  form input[type="password"] {
+    padding: 1.5rem 5rem;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 480px) {
+  html {
+    font-size: 50%;
+  }
+  form input[type="text"],
+  form input[type="password"] {
+    padding: 1.5rem 5rem;
+  }
+}

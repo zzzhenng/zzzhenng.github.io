@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>task1</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+        html {
+            font-size:62.5%;
+        }
+        body {
+            max-width:640px;
+            margin:auto;
+        }
+        .display {
+            display: flex;
+            justify-content: space-around;
+        }
+		 .main .box {
+            width: 12rem;
+            height:12rem;
+
+            /*padding-bottom: 29%;*/
+            background-color: #E78326;
+            border-radius: 3%;
+            float: left;
+            margin: 2%;
+        }
+        button {
+            background-color: white;
+            color:#f77903;
+            border:0.1rem solid ;
+            display: block;
+            margin:2rem;
+            padding:1.5rem 2rem;
+            width:90%;
+            outline:none;
+            cursor:pointer;
+        }
+        button:hover {
+            background-color: #e78326;
+            color:white;
+        }
+		</style>
+	</head>
+	<body>
+		
+	 <div class="main">
+        <div class="display">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>            
+        </div>
+        <div class="display">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>            
+        </div>
+        <div class="display">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>            
+        </div>
+        
+        <button class="btn1" onclick="myVar= setInterval(f,1000) " type="button">开始闪</button>
+        <button id="btn2" onclick="clearInterval(myVar)" type="button">结束闪</button>
+    </div>
+	<script src="main.js"></script>
+	</body>
+</html>

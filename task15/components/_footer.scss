@@ -1,0 +1,57 @@
+/*footer*/
+.footer{
+	padding:2rem 1.5rem;
+	background: $bg-bot;
+
+	@include media(480px) {
+		padding:1rem 6.5rem;
+	}
+
+}
+.footer .align-r{
+	text-align:right;
+	padding-right:4rem;
+}
+.footer-bot{
+	@include displ();
+	color:white;
+}
+.footer-bot .about{
+	margin-top:4.7rem;
+	font-size:1.2rem;
+}
+.footer-bot .sub,.tree{
+	font-size:1.4rem;
+}
+.footer-bot .mid{
+	padding:1.5rem 1.5rem 1rem 0;
+}
+.mid span,.bot span{
+	font-size:1.2rem;
+	margin-right:1rem;
+}
+.bot{
+	padding:0 1.5rem 2rem 0;
+}
+.weixin{
+	font-size:1.4rem;
+	margin-bottom:0.3rem;
+}
+.copyright{
+	border-top:0.1rem solid #32c086;
+	font-size:1.2rem;
+	background-color: $bg-bot;
+	color:white;
+	padding-top:0.5rem;
+	padding-bottom:0.5rem;
+	text-align:center;
+
+	@include media(300px) {
+		padding-left:$mlr-xs;
+		padding-right:$mlr-xs;
+	}
+	@include media(480px) {
+		padding-left: $mlr-md;
+		padding-right: $mlr-md;
+	}
+}

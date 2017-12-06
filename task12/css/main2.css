@@ -1,0 +1,138 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  max-width: 720px;
+  margin: auto;
+}
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 40%;
+  }
+}
+.bb {
+  border-bottom: 0.1rem solid #aaa;
+}
+.header {
+  position: relative;
+  max-width: 720px;
+  width: 100%;
+  margin: auto;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  background-color: #5fc0cd;
+}
+.header .top_bar {
+  display: flex;
+  justify-content: center;
+}
+.header .top_bar .btn {
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  font-size: 3.4rem;
+}
+.header .top_bar .btn-left {
+  background-color: #55a8b3;
+  color: white;
+}
+.header .top_bar .btn-right {
+  background-color: white;
+  color: #5fc0cd;
+}
+.header span {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  font-size: 4.4rem;
+}
+.row {
+  color: #aaa;
+  border-bottom: 0.1rem solid #aaa;
+}
+.row .col-xs-4 {
+  justify-content: space-around;
+  font-size: 2.8rem;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  text-align: center;
+}
+.row .col-xs-4 span {
+  float: right;
+}
+.row .col-xs-4 .caret {
+  margin-right: 0.6rem;
+  margin-top: 1.5rem;
+}
+@media screen and (max-width: 480px) {
+  .row .col-xs-4 .caret {
+    margin-top: 1rem;
+  }
+}
+.content {
+  padding: 0.5rem 0.6rem;
+  border-bottom: 0.1rem solid #aaa;
+}
+.content .content_row_info {
+  position: relative;
+  left: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: #aaa;
+  font-size: 2.6rem;
+}
+.content .content_row_info span {
+  position: absolute;
+  left: 2rem;
+}
+.content .content_row_date {
+  position: relative;
+  left: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 2.8rem;
+  margin-left: 1.9rem;
+  overflow: hidden;
+}
+.content .content_row_date span .money {
+  position: absolute;
+  right: 3rem;
+  color: red;
+}
+.content .fa-angle-right {
+  float: right;
+  margin-right: 1.4rem;
+  font-size: 4rem;
+}
+.bottom_bar {
+  font-size: 2rem;
+  position: fixed;
+  bottom: 0.1rem;
+  height: 4rem;
+  width: 100%;
+  max-width: 720px;
+  padding-top: 0.3rem;
+  padding-bottom: 0.1rem;
+  display: flex;
+  justify-content: space-around;
+}
+.bottom_bar .home {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #5fc0cd;
+}
+.bottom_bar .edit {
+  display: flex;
+  width: 4rem;
+  height: 4rem;
+  border: 0.3rem solid #5fc0cd;
+  background-color: #5fc0cd;
+}
+.bottom_bar .edit span {
+  margin: auto;
+  color: white;
+}
+.bottom_bar .mine {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #aaa;
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- font-awesome -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!-- bootstrap-icon -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<!-- google-icon -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<!-- bootstrap CDN -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<!-- JQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<title>桌游精灵7</title>
+		<link type="text/css" rel="stylesheet" href="main.css">
+		<link type="text/css" rel="stylesheet" href="mySidenav1.css">
+	</head>
+	<body>
+		<!-- SIDENAV -->
+		<div id="mySidenav" class="sidenav">
+			<div class="sidenav-menu">
+				<i class="material-icons volume">volume_mute</i>
+				<a href="#">公告</a>
+				<i class="material-icons m-right-icon ">keyboard_arrow_right</i>
+			</div>
+			<div class="sidenav-menu">
+				<i class="material-icons setting">settings</i>
+				<a href="#">设置</a>
+				<i class="material-icons m-right-icon">keyboard_arrow_right</i>
+			</div>
+			<div class="sidenav-menu">
+				<i class="material-icons">help_outline</i>
+				<a href="#">帮助</a>
+				<i class="material-icons m-right-icon">keyboard_arrow_right</i>
+			</div>
+			<div class="sidenav-menu">
+				<i class="material-icons">info_outline</i>
+				<a href="#">关于</a>
+				<i class="material-icons m-right-icon">keyboard_arrow_right</i>
+			</div>
+		</div><!-- END Side menu-->
+
+		<!-- MAIN -->
+		<div id="main"">
+			<div class="top-bar">
+				<!-- <i class="material-icons open-menu" >menu</i> -->
+				<i class="material-icons open-menu" onclick="openNav()">menu</i>
+				<!-- <a href="#mySidenav">MENU</a> -->
+			</div>
+			<div class="container-fluid" id="content" onclick="closeNav()" >
+				<div class="before-game">
+					<span>上次游戏：捉鬼猜词版</span>
+					<div class="arrow-right">
+						
+					</div>
+					<!-- <i class="material-icons arrow-right">keyboard_arrow_right</i> -->
+				</div>
+				<div class="content">
+					<div class="content-title">
+						捉鬼游戏
+					</div>
+					<div class="content-version">
+						白痴版
+					</div>
+					<div class="content-version-info">
+						在1133个用户正在玩此款游戏
+					</div>
+					<!-- <div class="center"> -->
+						
+					
+						<div class="content-version">
+							猜词版
+							<!-- <span></span>	 -->
+						</div>
+					<div class="triangle">
+						<a href="vote.html"><img src="triangle.png"></a>
+					</div>
+						
+					<!-- </div> -->
+					<div class="content-version-info">
+						在1133个用户正在玩此款游戏
+					</div>
+					<div class="content-version">
+						白痴版
+					</div>
+					<div class="content-version-info">
+						在1133个用户正在玩此款游戏
+					</div>
+					<div class="dot-icon">
+						<i class="fa fa-circle"></i>
+						<i class="fa fa-circle"></i>
+						<i class="fa fa-circle"></i>
+						<i class="fa fa-circle"></i>
+					</div>
+				</div>
+			</div>
+		</div><!-- END Main-->
+
+		<!-- JS -->
+		<script>
+			function openNav() {
+				// TO DO
+				// document.getElementById("mySidenav").style.width="250px";
+				// document.getElementById("main").style.marginLeft="250px";
+				// TODO
+				// document.getElementById("mySidenav").style.width="250px";
+				// document.getElementById("main").style.transform="translate(250px)";
+				document.getElementById("mySidenav").style.transform="translateX(0)";
+				document.getElementById("main").style.transform="translateX(250px)";
+				// document.getElementsByClassName("container-fluid").style.backgroundColor="red";
+				document.getElementById("content").style.backgroundColor="rgb(9,187,242)";
+
+			}
+			function closeNav() {
+				// document.getElementById("mySidenav").style.width="0";
+				// document.getElementById("main").style.marginLeft="0";
+				// TODO
+				// document.getElementById("mySidenav").style.width="0";
+				// document.getElementById("main").style.transform="translate(0)";
+				document.getElementById("mySidenav").style.transform="translateX(-250px)";
+				document.getElementById("main").style.transform="translateX(0)";
+				document.getElementById("content").style.backgroundColor="rgb(240,240,240)";
+
+			}
+
+		</script>
+		<!-- <script src="menu.js"></script> -->
+			</body>
+		</html>
